@@ -4,7 +4,6 @@ import { connectWallet } from "../../redux/blockchain/blockchainActions";
 import { fetchData } from "./../../redux/data/dataActions";
 import { StyledRoundButton } from "./../../components/styles/styledRoundButton.styled";
 import * as s from "./../../styles/globalStyles";
-import Social from "../../components/SocialMedia/Social";
 
 function Home() {
   let cost = 0;
