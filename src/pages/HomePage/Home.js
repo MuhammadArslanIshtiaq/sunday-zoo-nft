@@ -214,7 +214,9 @@ function Home() {
               MINT NOW
             </s.TextTitle>
             <s.SpacerSmall />
-            <s.TextSubTitle size={1.4}>887/888 minted</s.TextSubTitle>
+            <s.TextSubTitle size={1.4}>
+              {888 - supply} of 888 NFT's Available
+            </s.TextSubTitle>
             <s.SpacerLarge />
             <s.SpacerLarge />
 
